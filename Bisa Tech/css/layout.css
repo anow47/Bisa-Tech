@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/***this btn class will apply on all the links button***/
+.btn {
+    background: linear-gradient(to right,#7a2374 ,#c68ac2 );/*#ff8e24****#fbc026 */
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background: linear-gradient(to left, #7a2374 ,#c68ac2 ); 
+}
+/*************************************Header-top*******************************************/
+.header_top {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px 0;
+    
+    
+   
+}
+nav a:hover{
+    color: #1f9dd6;
+    transform: scale(2.5);
+    transition: 0.4s;
+}
+nav ul {
+    display: flex;
+  
+}
+nav ul li {
+    list-style-type: none;
+    margin: 0 25px;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+nav a {
+    text-decoration: none;
+    color: #1a6080;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+
+/*********************************logo**************************************/
+.logo { 
+ 
+    width: 100px;
+    height: 76px; 
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+.logo:hover{
+    margin-left: 10px;
+    transition: 0.3s; /* this makes the logo moves somoothly*/
+}
+.logo img{
+    
+    width: 100px;
+    height: 85px;
+    padding: 10px 0;
+   
+    
+}
+/*************************header bootom left*************************************/
+.header_bottom{
+    
+    height: 400px;
+    
+}
+
+.header_bottom > div{
+    height: 390px;
+    flex-basis: 50%;
+   
+}
+.header_bottom-left {
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    background-color: ;
+    padding: 0 200px;
+    height: 100px;
+   
+}
+.header_bottom-left > div {
+    
+}
+h1 {
+    font-size: 40px;
+    margin-left: 30px;
+    color: #1a6080;
+}
+.header_bottom-left p {
+    margin: 20px 0;
+    text-transform: uppercase;
+    line-height: 25px;
+    
+}
+.header_bottom-left a {
+    text-decoration: none;
+    font-size: 10px;
+}
+.header_bottom-right{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+/****************************sections***************************************/
+
+body > div [class*=section]{
+    padding: 50px 0;
+    
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 0 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: ; 
+    color: #1a6080;
+    font-size: 20px;
+}
+/**********************************section-2***************************************/
+.section_2 {padding: 40px 30px;}
+.section_2::before{
+    content: "";
+    display: block;
+    width: 350px;
+    height: 280px;
+    background-image: url(images/service_icon_3.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: rotate(25deg);
+}
+.section_2-wrap{
+   
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.section_2-items{
+    background: #fff;
+    flex-basis: 32%;
+    padding: 30px 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    border-radius: 15px;
+    
+}
+div [class*=items_img]{
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius:50%;
+    margin: 0 auto;
+    
+    
+    
+}
+.section_2-items:hover{
+    background: #FFF;
+    transform: scale(1.05);
+    transition: 0.3s;
+    
+}
+.section_2-items p {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.item_button {
+    border-top: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    
+}
+.item_button a {
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+
+
+/************************Section_3 OUR PROMOTIONS OFFER************************/
+.section_3{
+    
+    background: ;
+    padding: 30px 0;
+    
+}
+.section_3-wrap{
+    margin: 0 auto;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section_3-items{
+    
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    
+}
+.section_3-items:first-child,
+.section_3-items:nth-child(4){
+    flex-basis: 60%;
+}
+.section_3-items:nth-child(2),
+.section_3-items:nth-child(3){
+    flex-basis: 38%;
+    
+}
+.section_3-items:first-child{background: url(images/1.png) no-repeat center center/cover;}
+.section_3-items:nth-child(2){background: url(images/2.png) #fff  no-repeat ;}
+.section_3-items:nth-child(3){background: url(images/3.png) #fff no-repeat  ;}
+.section_3-items:nth-child(4){background: url(images/g8.jpg) no-repeat center center/cover;}
+/**
+.section_3-items:first-child div {background: linear-gradient(to right, #ff9934 ,#f9c32b );}
+.section_3-items:nth-child(4) div {background: linear-gradient(to right, #f9ficd ,#fff );}
+**/
+.section_5{
+    background: url(images/section_bg02.jpg) no-repeat center center/cover;
+    padding: 30px 0;
+}
+.section_5-wrap{
+    
+    width: 70%;
+    margin: 40px auto 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section_5-items{
+    
+    flex-basis: 32%;
+    padding: 20px 25px 10px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    background: #fff;
+    border-radius: 5px;
+
+}
+.section_5 h2 { padding: 15px 0;}
+
+.section_5-items p {font-size: 14px; line-height: 22px;}
+.section_5-items span{
+    display: block;
+    text-align: right;
+    font-weight: 700;
+    margin-top: 20px; 
+}
+
+.section_5 form {
+    width: 40%;
+    margin: 20px auto;
+    text-align: center;
+}
+button{ margin: 15px auto;}
+textarea{height: 100px;}
+input , textarea {
+    display: block;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0 0;
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+    
+}
+h2 {}
+
+/*******************************************Footer**************************************/
+footer {
+
+    padding: 50px 0;
+    
+}
+
+footer > div {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px 0;
+    
+}
+/***********************************social footer******************************************/
+footer .top {border-bottom: 1px solid darkcyan ;}
+.social > a {
+    
+    display: inline-block;
+    cursor: pointer;
+    padding: 15px;
+    color: aliceblue;
+    font-size: 30px;  
+}
+.icon-1:hover {color: #4267B2;}
+.icon-2:hover {color: #1DA1F2;}
+.icon-3:hover {color: #E1306C;}
+.icon-4:hover {color: #ff0000;}
+
+.social i:hover {
+    transition: 0.1s;
+    transform: scale(2.1);    
+}
+.social p {font-size: 20px; color: aliceblue; text-align: center;}
+.bottom {padding: 5px 0;}
+.bottom nav a {color: aliceblue;}
+footer .bottom {
+    
+    color: aliceblue;
+    font-size: 14px;
+    padding: 10px 0;
+}
